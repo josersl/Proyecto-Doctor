@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/index.css" />
+    <link rel="stylesheet" href="/Css/reset.min.css" />
+    <link rel="stylesheet" href="/Css/header.css" />
+    <link rel="stylesheet" href="/Css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Dr. Giuseppe A. Coiro</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <!-- Header -->
+      <header class="main-header">
+        <!-- Menu -->
+        <nav class="main-nav">
+          <a id="logo" href="index.html">
+            <img src="/Archivos/Logo cirugia laparoscopica FINAL.png" alt=""
+          /></a>
+          <ul class="menu-list" id="menu-list">
+            <li>
+              <a href="giuseppe.html">DR. GIUSEPPE A. COIRO</a>
+            </li>
+            <li>
+              <a href="procedimientos.html">PROCEDIMIENTOS</a>
+            </li>
+            <li>
+              <a href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a href="ucima.html">U.C.I.M.A</a>
+            </li>
+            <li>
+              <a href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <div class="background-nav"></div>
+        </nav>
+        <span id="menu-button"></span>
+        <div class="background-1">
+          <span></span>
+          <span></span>
+          <div class="background-text">
+            <h1>"Más precisa y eficaz que un bisturí."</h1>
+            <p>
+              La <strong>laparoscopia</strong> es la alternativa mínimamente
+              invasiva a la cirugía abierta convencional, los pacientes
+              sometidos a esta sufren de menos dolor postoperatorio, una
+              recuperación más rápida, y un mejor resultado estético.
+            </p>
+            <button>
+              <a href="blog.html">MÁS INFORMACIÓN</a>
+            </button>
+            <div></div>
+          </div>
+        </div>
+      </header>
+      <!-- Background -->
+      <div class="background-2">
+        <div></div>
+        <h2>Tres razones para elegirla</h2>
+        <ul>
+          <li>
+            <img src="/insure-landing-page-master/virus.svg" alt="virus">
+            Reduce el riesgo de infección
+            <p>
+              Las incisiones al ser de menor calibre, reducen la superficie de
+              contacto con el medio externo, evitando la exposición de las
+              cavidades internas a microorganismos existentes en el ambiente.
+            </p>
+          </li>
+          <li>
+            <img src="/insure-landing-page-master/scar.svg" alt="mano">
+            Menos cicatrices externas
+            <p>
+              Debido a que la cirugía laparoscópica ha sustituido las largas
+              cicatrices propias de la cirugía tradicional por pequeños puntos
+              de incisión.
+            </p>
+          </li>
+          <li>
+            <img src="/insure-landing-page-master/thunder.svg" alt="rayo">
+            Recuperación más rápida
+            <p>
+              Al ser la incisión menor, precisa de cuidados menos agresivos, lo
+              que disminuye el tiempo de estancia hospitalaria del paciente.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <span class="background-3">
+        <h3>
+          Pon tu bienestar en manos de una unidad quirúrgica capacitada, y un
+          profesional calificado
+        </h3>
+        <div></div> <!-- Background -->
+      <button>
+          <a href="giuseppe.html">DR. GIUSEPPE A. COIRO</a>
+        </button>
+        <button>
+          <a href="ucima.html">U.C.I.M.A</a>
+        </button>
+        <button>
+          <a href="contacto.html">QUIERO CONTACTARME</a>
+        </button>
+      </span>
+      <!-- Footer -->
+      <footer class="main-footer">
+        <link rel="stylesheet" href="footer.css" />
+        <div class="background-4">
+          <p>
+            Dr. Giuseppe Antonio Coiro <br />
+            Médico cirujano
+          </p>
+          <span>
+            <a href="" target="blank"></a>
+            <a href="" target="blank"></a>
+            <a href="" target="blank"></a>
+          </span>
+        </div>
+        <div class="background-5">
+          <p>U.C.I.M.A</p>
+          <p>Centro Clínico Universitario de Oriente, Piso 1, Consultorio 09</p>
+          <p>Ciudad Bolívar, Estado Bolivar - Venezuela</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const menuList = document.getElementById("menu-list");
+      const menuButton = document.getElementById("menu-button");
+      function displayMenu() {
+        menuList.classList.toggle("displayed");
+      }
+      menuButton.addEventListener("click", displayMenu);
+    </script>
+  </body>
+</html>

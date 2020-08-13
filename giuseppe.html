@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Css/reset.min.css"/>
+       <link rel="stylesheet" href="/Css/giuseppe.css">
+        <link rel="stylesheet" href="/Css/index.css">
+        <link rel="stylesheet" href="/Css/footer.css">
+        <link rel="stylesheet" href="/Css/header.css"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+            rel="stylesheet"/>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main-content">
+            <!-- Header -->
+            <header class="main-header">
+                <!-- Menu -->
+                <nav class="main-nav">
+                    <a id="logo" href="index.html">
+                        <img src="/Archivos/Logo cirugia laparoscopica FINAL.png" alt=""/></a>
+                    <ul class="menu-list" id="menu-list">
+                        <li>
+                            <a href="giuseppe.html">DR. GIUSEPPE A. COIRO</a>
+                        </li>
+                        <li>
+                            <a href="procedimientos.html">PROCEDIMIENTOS</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="ucima.html">U.C.I.M.A</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <div class="background-nav"></div>
+                </nav>
+                <span id="menu-button"></span>
+            </header>
+            <!-- Info page -->
+            <div class="background-h1">
+                <h1>Dr. Giuseppe A. Coiro</h1>
+                <div></div>
+            </div>
+          <!-- Doctor info list -->
+            <ul class="description-list">
+                <li> <img src="/insure-landing-page-master/doctor.svg" alt="doctor image"> <br>
+                    Médico cirujano y especialista en cirugía laparoscópica. Egresado de la
+                    Universidad de Oriente, Venezuela.</li>
+                <li> <img src="/insure-landing-page-master/pharmacy.svg" alt=""> <br>
+                    Miembro titular de la Federación Médica Venezolana.</li>
+                <li> <img src="/insure-landing-page-master/teacher.svg" alt=""> <br>
+                    Profesor en el area de pregrado y postgrado, Universidad de Oriente, núcleo
+                    Bolívar.</li>
+            </ul>
+            <div class="background-h2">
+                <span></span>
+                <h2>Méritos Académicos</h2>
+            </div>
+            <span class="background-img2">
+            </span>
+            <ul class="academic-list">
+                <li> <img src="/insure-landing-page-master/medal.svg" alt="medalla"> <br>
+                    M.P.P.D y Centro Asistencial Militar TCNEL "Dr. Cesar Andrés Bello
+                    Descrivan" Agosto 2010
+                </li>
+                <li> <img src="/insure-landing-page-master/graduation.svg" alt=""> <br>
+                    U.D.O 1991 - 1992. Especialización en cirugía laparoscópica básica y
+                    avanzada - Valencia, Venezuela.
+                </li>
+                <li> <img src="/insure-landing-page-master/trophy.svg" alt=""> <br>
+                    M.P.P.S Centro Nefrológico "Dr. Simplicio Hernández" Tucupita, Edo. Delta
+                    Amacuro. 2011</li>
+            </ul>
+            <span class="background2-h2">
+                <h2>Trabajos realizados</h2>
+                <div></div>
+            </span>
+            <ul class="work-list">
+                <li>Pediculosis - piodermitis y oxiurasis en los hogares de cuidado diario.
+                    Ciudad Bolívar</li>
+                <li>Hemorragia digestiva superior. Revisión de 143 casos, Complejo Hospitalario
+                    Universitario Ruíz y Paez. Ciudad Bolívar.</li>
+                <li>Lavado peritoneal diagnóstico con cinta reactiva, en trauma abdominal
+                    cerrado y abierto por arma blanca. Complejo Hospitalario Ruíz y Paez.
+                </li>
+                <li>Incidencia de la patología quirúrgica de la glándula tiroidea, servicio de
+                    cirugía, Complejo Hospitalario Universitario Ruíz y Paez.
+                </li>
+                <li>Estudio comparativo de la profilaxis antimicrobiana y antibióticoterapia
+                    convencional en pacientes con apendicitis aguda, en el servicio de cirugía.
+                    Complejo Hospitalario Universitario Ruíz y Paez.
+                </li>
+                <li>Colecistectomía abierta vs colecistectomía laparoscópica, servicio de
+                    cirugía. Complejo Hospitalario Ruíz y Paez.
+                </li>
+                <li>Manejo de lesiones hepáticas en pacientes con trauma toraco-abdominal.
+                    Complejo Hospitalario Ruíz y Paez
+                </li>
+                <div></div>
+            </ul>
+            <button id="contact-button">
+                <a href="contacto.html">CONTACTO</a>
+            </button>
+            <!-- Footer -->
+      <!-- <footer class="main-footer">
+        <div class="background-4">
+          <p>
+            Dr. Giuseppe Antonio Coiro <br />
+            Médico cirujano
+          </p>
+          <span>
+            <a href="" target="blank"></a>
+            <a href="" target="blank"></a>
+            <a href="" target="blank"></a>
+          </span>
+        </div>
+        <div class="background-5">
+          <p>U.C.I.M.A</p>
+          <p>Centro Clínico Universitario de Oriente, Piso 1, Consultorio 09</p>
+          <p>Ciudad Bolívar, Estado Bolivar - Venezuela</p>
+        </div>
+      </footer> -->
+        </div>
+        <script>
+            const menuList = document.getElementById("menu-list");
+            const menuButton = document.getElementById("menu-button");
+            function displayMenu() {
+                menuList
+                    .classList
+                    .toggle("displayed");
+            }
+            menuButton.addEventListener("click", displayMenu);
+        </script>
+
+    </body>
+</html>
